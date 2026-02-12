@@ -16,7 +16,7 @@ public class ThisKeywordDemo {
         Scanner sc = new Scanner(System.in);
         int input = sc.nextInt();
 
-        ThisDemo obj = new ThisDemo();
+        ThisKeywordDemo obj = new ThisKeywordDemo();
         obj.setValue(input);
         obj.display();
     }
